@@ -1,0 +1,236 @@
+@media screen and (max-width: 480px) {
+    /* HEADER */
+    header > .fa-bars{
+        display: inline;
+    }
+
+    header > nav{
+        display: none;
+    }
+
+    /* HOME */
+    #home {
+        flex-direction: column-reverse;
+    }
+
+    #home .home-left > .title {
+        font-size: .8rem;
+        text-align: center;
+    }
+
+    #home #button-github, #button-linkedin  {
+        font-size: .6rem;
+    }
+
+    /* ABOUT */
+    #about {
+        flex-direction: column-reverse;
+    }
+
+    #about .about-right {
+        font-size: .8rem;
+    }
+
+    #about .sub-title {
+        font-size: 1.4rem;
+    }
+
+    /* PROJECTS */
+    #projects .title-projects > .title{
+        font-size: 1.4rem;
+    }
+
+    #projects .title-projects > .sub{
+        font-size: .8rem;
+    }
+
+    #projects .box-project {
+        max-width: 100%;
+    }
+
+    /* KNOWLEDGE*/
+    #knowledge {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    #knowledge .knowledge-left > .title {
+        font-size: 1.4rem;
+    }
+
+    #knowledge .knowledge-left > .sub {
+        font-size: .8rem;
+    }
+
+    #knowledge .container-hard-skills {
+        max-width: 100%;
+        font-size: .5rem;
+    }
+
+    #project .knowledge-left > .mause-up-knowledge {
+        font-size: .8rem;
+    }
+
+    /* CONTACT */
+    #contact .box-contact {
+        max-width: 100%;
+    }
+
+    .box-contact .fa-linkedin {
+        position: relative;
+        right: 160px;
+    }
+    
+    .box-contact .fa-whatsapp {
+        position: relative;
+        right: 125px;
+    }
+    
+    .box-contact .fa-envelope {
+        position: relative;
+        right: 85px;
+    }
+
+    /* FOOTER */
+    #footer {
+        font-size: 0.6rem;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    /* HEADER */
+    header > .fa-bars{
+        display: inline;
+    }
+
+    header > nav{
+        display: none;
+    }
+
+    /* HOME */
+    #home .home-left {
+        font-size: .6rem;
+        width: 90%;
+    }
+
+    /* ABOUT */
+    #about .about-right {
+        font-size: .8rem;
+        max-width: 50%;
+    }
+
+    #about .sub-title {
+        font-size: 1.4rem;
+    }
+
+    /* PROJECTS */
+    #projects .title-projects > .title{
+        font-size: 1.4rem;
+    }
+
+    #projects .title-projects > .sub{
+        font-size: .8rem;
+    }
+
+    #projects .box-project {
+        max-width: 45%;
+    }
+
+    /* KNOWLEDGE*/
+    #knowledge {
+        gap: 70px;
+    }
+
+    #knowledge .knowledge-left > .title {
+        font-size: 1.4rem;
+    }
+
+    #knowledge .knowledge-left > .sub {
+        font-size: .8rem;
+    }
+
+    #knowledge .container-hard-skills {
+        max-width: 60%;
+        font-size: .5rem;
+    }
+
+    /* CONTACT */
+    #contact .box-contact {
+        max-width: 100%;
+    }
+
+    .box-contact .fa-linkedin {
+        position: relative;
+        right: 160px;
+    }
+    
+    .box-contact .fa-whatsapp {
+        position: relative;
+        right: 125px;
+    }
+    
+    .box-contact .fa-envelope {
+        position: relative;
+        right: 85px;
+    }
+
+    /* FOOTER */
+    #footer {
+        padding: 5px 0;
+        font-size: 0.6rem;
+    }
+
+    #footer img {
+        max-width: 25px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1279px){
+    /* HEADER */
+    header > .fa-bars{
+        display: none;
+    }
+
+    header > nav{
+        display: inline;
+    }
+
+    /* HOME */
+    #home .home-left {
+        font-size: .8rem;
+    }
+
+    /* ABOUT */
+    #about .about-right {
+        font-size: .8rem;
+        max-width: 50%;
+    }
+
+    #about .sub-title {
+        font-size: 1.4rem;
+    }
+
+    /* PROJECTS */
+    #projects .title-projects > .title{
+        font-size: 1.4rem;
+    }
+
+    #projects .title-projects > .sub{
+        font-size: .8rem;
+    }
+
+    #projects .box-project {
+        max-width: 40%;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    header > .fa-bars{
+        display: none;
+    }
+
+    header > nav{
+        display: inline;
+    }
+}

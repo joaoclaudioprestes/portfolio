@@ -1,0 +1,28 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    padding: 5px 20px;
+    align-items: center;
+
+    font-size: 0.875rem;
+    font-family: var(--font-inter);
+    color: #fff;
+
+    border-radius: 0 0 15px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2px);
+}
+
+
+#header  > img {
+    max-height: 90%;
+}
+
+#header  nav ul {
+    display: flex;
+    gap: 3.85rem;
+
+    list-style: none;
+}

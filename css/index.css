@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;600;700&display=swap');
+
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-inter: 'Inter', sans-serif;
+    --font-outifit: 'Outfit', sans-serif;
+}
+
+body {
+    font-size: 62.5%;
+    background: #0D0D0D;
+    width: 90vw;
+    margin: 0 auto;
+}
