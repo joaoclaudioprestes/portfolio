@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/hard-skills.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/responsive.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
     <header id="header">
         <img src="img/logo.svg" alt="Logo" id="logo">
 
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Sobre mim</li>
-                <li>Serviços</li>
-                <li>Projetos</li>
-                <li>Experiência</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
             </ul>
         </nav>
 
-        <i class="fa-bars fa-solid"></i>
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
     </header>
 
-    <main id="main">
+    <main id="main-container">
         <div id="home">
             <div class="home-left">
-                <h1 class="title">Lorem ipsum, dolor sit amet <span>João Claudio Prestes</span> adipisicing elit. Quasi, totam?</h1>
+                <div class="title-box">
+                    <h1 class="title">Olá, eu sou</h1>
+                    <span class="name-title">João Claudio Prestes</span>
+                    <span class="profission">Full-Stack Developer</span>
+                </div>
 
-                <div>
-                    <button id="button-github">
+                <div id="button-home">
+                    <button class="button-github">
                         <i class="fa-brands fa-github"></i>
-                        GitHub
+                        <a href="#">GitHub</a>
                     </button>
-                    <button id="button-linkedin">
+                    <button class="button-linkedin">
                         <i class="fa-brands fa-linkedin"></i>
-                        LinkedIn
+                        <a href="#">LinkedIn</a>
                     </button>
                 </div>
             </div>
@@ -61,10 +68,18 @@
             </div>
 
             <div class="about-right">
-                <h2 class="sub-title">Sobre mim</h2>
-                <p>Desenvolvedor Full-Stack</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempora suscipit consectetur asperiores quae, ratione neque. In, architecto? Dolore et rerum autem modi quas voluptatum, exercitationem illo vitae harum sequi? Ut, numquam a ea ipsa velit odit adipisci nesciunt placeat optio dicta dolores sint, laudantium dolorum repudiandae perferendis aliquam quod.</p>
+                <h2 class="title">Sobre mim</h2>
+                <div class="description-about">
+                    <div class="dub-description">
+                        <p class="sub-title">Full-Stack Developer</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempora suscipit
+                            consectetur
+                            asperiores quae, ratione neque. In, architecto? Dolore et rerum autem modi quas voluptatum,
+                            exercitationem illo vitae harum sequi? Ut, numquam a ea ipsa velit odit adipisci nesciunt
+                            placeat optio dicta dolores sint, laudantium dolorum repudiandae perferendis aliquam quod.
+                        </p>
+                    </div>
+                </div>
 
                 <div class="links-about">
                     <i class="fa-brands fa-instagram"></i>
@@ -77,88 +92,54 @@
         <div id="projects">
             <div class="title-projects">
                 <h2 class="title">Projetos</h2>
-                <p class="sub">Veja alguns dos meus projetos onde coloquei em pratica meus conhecimentos.</p>
+                <p class="sub">Conheça meus projetos...</p>
             </div>
 
             <div class="container-projects">
                 <div class="box-project">
-                    <img src="img/integra-bike.png" alt="Imagem do projeto">
+                    <img src="img/integra-bike.png" alt="Service Image">
                     <div class="description">
                         <p class="name-description">Integra Bike</p>
-                        <p class="sub-description">Projeto Desenvolvido durante a faculdade</p>
+                        <p class="sub-description">Creating websites and web applications</p>
                         <div class="technologies">
                             <div class="icons-technologies">
                                 <i class="fa-brands fa-html5"></i>
                                 <i class="fa-brands fa-css3"></i>
                                 <i class="fa-brands fa-js"></i>
                             </div>
-                            <button id="button-preview">
-                                Veja mais
+                            <button class="button-preview">
+                                <a href="">Veja mais</a>
                             </button>
                         </div>
                     </div>
                 </div>
+
                 <div class="box-project">
-                    <img src="img/integra-bike.png" alt="Imagem do projeto">
+                    <img src="img/integra-bike.png" alt="Service Image">
                     <div class="description">
                         <p class="name-description">Integra Bike</p>
-                        <p class="sub-description">Projeto Desenvolvido durante a faculdade</p>
+                        <p class="sub-description">Creating websites and web applications</p>
                         <div class="technologies">
                             <div class="icons-technologies">
                                 <i class="fa-brands fa-html5"></i>
                                 <i class="fa-brands fa-css3"></i>
                                 <i class="fa-brands fa-js"></i>
                             </div>
-                            <button id="button-preview">
-                                Veja mais
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="box-project">
-                    <img src="img/integra-bike.png" alt="Imagem do projeto">
-                    <div class="description">
-                        <p class="name-description">Integra Bike</p>
-                        <p class="sub-description">Projeto Desenvolvido durante a faculdade</p>
-                        <div class="technologies">
-                            <div class="icons-technologies">
-                                <i class="fa-brands fa-html5"></i>
-                                <i class="fa-brands fa-css3"></i>
-                                <i class="fa-brands fa-js"></i>
-                            </div>
-                            <button id="button-preview">
-                                Veja mais
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="box-project">
-                    <img src="img/integra-bike.png" alt="Imagem do projeto">
-                    <div class="description">
-                        <p class="name-description">Integra Bike</p>
-                        <p class="sub-description">Projeto Desenvolvido durante a faculdade</p>
-                        <div class="technologies">
-                            <div class="icons-technologies">
-                                <i class="fa-brands fa-html5"></i>
-                                <i class="fa-brands fa-css3"></i>
-                                <i class="fa-brands fa-js"></i>
-                            </div>
-                            <button id="button-preview">
-                                Veja mais
+                            <button class="button-preview">
+                                <a href="">Veja mais</a>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-            <button id="button-view-all">
-                Veja todos
+            <button class="button-preview">
+                <a href="">Veja mais</a>
             </button>
         </div>
-
         <div id="knowledge">
             <div class="knowledge-left">
-                <h2 class="title">Conhecimentos</h2>
-                <p class="sub">Veja alguns dos meus conhecimentos...</p>
+                <h2 class="title">Skills</h2>
+                <p class="sub">Saiba mais sobre meus conhecimentos...</p>
                 <div class="mause-up-knowledge"><span>dasdsf</span></div>
             </div>
 
@@ -231,4 +212,5 @@
         </div>
     </footer>
 </body>
+
 </html>

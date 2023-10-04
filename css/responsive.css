@@ -1,110 +1,86 @@
-@media screen and (max-width: 480px) {
-    /* HEADER */
-    header > .fa-bars{
-        display: inline;
-    }
+@media screen and (min-width:320px) and (max-width: 480px) {
 
-    header > nav{
+    /* HEADER */
+    #header>nav {
         display: none;
     }
 
     /* HOME */
     #home {
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
-    #home .home-left > .title {
-        font-size: .8rem;
+    #home .home-left {
         text-align: center;
     }
 
-    #home #button-github, #button-linkedin  {
-        font-size: .6rem;
+    #home .home-left .title-box .title {
+        font-size: 2rem;
+    }
+    
+    #home .home-left .title-box .name-title {
+        font-size: 3rem;
+    }
+    
+    #home .home-left .title-box .profission {
+        font-size: 2rem;
     }
 
+    #home img {
+        width: 80%;
+    }
     /* ABOUT */
     #about {
-        flex-direction: column-reverse;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #about .about-left {
+        justify-content: center;
     }
 
     #about .about-right {
-        font-size: .8rem;
+        text-align: justify;
     }
 
-    #about .sub-title {
-        font-size: 1.4rem;
-    }
-
-    /* PROJECTS */
-    #projects .title-projects > .title{
-        font-size: 1.4rem;
-    }
-
-    #projects .title-projects > .sub{
-        font-size: .8rem;
-    }
-
-    #projects .box-project {
-        max-width: 100%;
+    #about img {
+        width: 90%;
     }
 
     /* KNOWLEDGE*/
     #knowledge {
         flex-direction: column;
-        gap: 70px;
-    }
-
-    #knowledge .knowledge-left > .title {
-        font-size: 1.4rem;
-    }
-
-    #knowledge .knowledge-left > .sub {
-        font-size: .8rem;
+        gap: 20px;
     }
 
     #knowledge .container-hard-skills {
-        max-width: 100%;
-        font-size: .5rem;
-    }
-
-    #project .knowledge-left > .mause-up-knowledge {
-        font-size: .8rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
     }
 
     /* CONTACT */
     #contact .box-contact {
-        max-width: 100%;
+        width: 90%;
+        font-size: 1.2rem;
     }
 
-    .box-contact .fa-linkedin {
-        position: relative;
-        right: 160px;
-    }
-    
-    .box-contact .fa-whatsapp {
-        position: relative;
-        right: 125px;
-    }
-    
-    .box-contact .fa-envelope {
-        position: relative;
-        right: 85px;
-    }
 
     /* FOOTER */
-    #footer {
-        font-size: 0.6rem;
-    }
+
 }
 
 
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
     /* HEADER */
-    header > .fa-bars{
+    header>.fa-bars {
         display: inline;
     }
 
-    header > nav{
+    header>nav {
         display: none;
     }
 
@@ -125,11 +101,11 @@
     }
 
     /* PROJECTS */
-    #projects .title-projects > .title{
+    #projects .title-projects>.title {
         font-size: 1.4rem;
     }
 
-    #projects .title-projects > .sub{
+    #projects .title-projects>.sub {
         font-size: .8rem;
     }
 
@@ -142,11 +118,11 @@
         gap: 70px;
     }
 
-    #knowledge .knowledge-left > .title {
+    #knowledge .knowledge-left>.title {
         font-size: 1.4rem;
     }
 
-    #knowledge .knowledge-left > .sub {
+    #knowledge .knowledge-left>.sub {
         font-size: .8rem;
     }
 
@@ -164,12 +140,12 @@
         position: relative;
         right: 160px;
     }
-    
+
     .box-contact .fa-whatsapp {
         position: relative;
         right: 125px;
     }
-    
+
     .box-contact .fa-envelope {
         position: relative;
         right: 85px;
@@ -186,13 +162,14 @@
     }
 }
 
-@media screen and (min-width: 769px) and (max-width:1279px){
+@media screen and (min-width: 769px) and (max-width:1279px) {
+
     /* HEADER */
-    header > .fa-bars{
+    header>.fa-bars {
         display: none;
     }
 
-    header > nav{
+    header>nav {
         display: inline;
     }
 
@@ -212,11 +189,11 @@
     }
 
     /* PROJECTS */
-    #projects .title-projects > .title{
+    #projects .title-projects>.title {
         font-size: 1.4rem;
     }
 
-    #projects .title-projects > .sub{
+    #projects .title-projects>.sub {
         font-size: .8rem;
     }
 
@@ -225,12 +202,12 @@
     }
 }
 
-@media screen and (min-width: 1280px){
-    header > .fa-bars{
+@media screen and (min-width: 1280px) {
+    header>.fa-bars {
         display: none;
     }
 
-    header > nav{
+    header>nav {
         display: inline;
     }
 }
