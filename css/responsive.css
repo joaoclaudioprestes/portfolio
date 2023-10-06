@@ -19,11 +19,11 @@
     #home .home-left .title-box .title {
         font-size: 2rem;
     }
-    
+
     #home .home-left .title-box .name-title {
         font-size: 3rem;
     }
-    
+
     #home .home-left .title-box .profission {
         font-size: 2rem;
     }
@@ -31,6 +31,7 @@
     #home img {
         width: 80%;
     }
+
     /* ABOUT */
     #about {
         flex-direction: column;
@@ -69,6 +70,13 @@
 
 
     /* FOOTER */
+    #footer {
+        padding-top: 30px;
+        font-size: .8rem;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+    }
 
 }
 
@@ -85,28 +93,63 @@
     }
 
     /* HOME */
-    #home .home-left {
-        font-size: .6rem;
+    #home img {
         width: 90%;
     }
 
+    #home .home-left {
+        text-align: center;
+    }
+
+    #home .home-left .title-box .title {
+        font-size: 2rem;
+    }
+
+    #home .home-left .title-box .name-title {
+        font-size: 2rem;
+    }
+
+    #home .home-left .title-box .profission {
+        font-size: 1.4rem;
+    }
+
     /* ABOUT */
-    #about .about-right {
-        font-size: .8rem;
-        max-width: 50%;
+    #about {
+        justify-content: center;
+    }
+
+    #about .about-left {
+        justify-content: center;
+    }
+
+    #about .title {
+        font-size: 2rem;
+        font-family: var(--font-outifit);
     }
 
     #about .sub-title {
+        font-size: 1.6rem;
+    }
+
+    #about .description-about {
         font-size: 1.4rem;
+    }
+
+    #about .about-right {
+        text-align: justify;
+    }
+
+    #about .about-left img {
+        width: 200px;
     }
 
     /* PROJECTS */
     #projects .title-projects>.title {
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 
     #projects .title-projects>.sub {
-        font-size: .8rem;
+        font-size: 1.4rem;
     }
 
     #projects .box-project {
@@ -116,39 +159,37 @@
     /* KNOWLEDGE*/
     #knowledge {
         gap: 70px;
+        flex-direction: column;
     }
 
     #knowledge .knowledge-left>.title {
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 
     #knowledge .knowledge-left>.sub {
-        font-size: .8rem;
+        font-size: 1.5rem;
     }
 
     #knowledge .container-hard-skills {
-        max-width: 60%;
-        font-size: .5rem;
+        grid-template-columns: repeat(4, 1fr);
+        align-self: center;
+        justify-content: center;
     }
 
     /* CONTACT */
-    #contact .box-contact {
-        max-width: 100%;
-    }
-
     .box-contact .fa-linkedin {
         position: relative;
-        right: 160px;
+        right: 190px;
     }
 
     .box-contact .fa-whatsapp {
         position: relative;
-        right: 125px;
+        right: 160px;
     }
 
     .box-contact .fa-envelope {
         position: relative;
-        right: 85px;
+        right: 120px;
     }
 
     /* FOOTER */
