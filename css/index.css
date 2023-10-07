@@ -41,7 +41,7 @@ body {
     font-size: 1.3rem;
 }
 
-#header  #logo {
+#logo {
     width: 35px;
 }
 
@@ -57,15 +57,12 @@ body {
     color: #FFF;
     cursor: pointer;
     font-weight: bold;
+    display: block;
 }
 
 #header a:hover {
     background: #FFFFFF33;
     border-radius: 15px;
-}
-
-#header #menu-bars {
-    display: none;
 }
 
 #header button {
@@ -81,6 +78,10 @@ body {
     background: #fff;
     border-color: #fff;
     color: #000;
+}
+
+#btn-menu {
+    display: block;
 }
 
 /* HOME */
@@ -99,6 +100,8 @@ body {
     align-items: center;
 
     padding: 40px;
+    position: relative;
+    z-index: -1;
 }
 
 #home .home-left {
@@ -460,12 +463,15 @@ body {
     color: #fff;
 
     padding: 0 20px;
+
+    cursor: pointer;
 }
 
 .box-contact a {
     text-decoration: none;
     color: #fff;
 }
+
 
 /* FOOTER */
 #footer {

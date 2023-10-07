@@ -1,18 +1,37 @@
 @media screen and (min-width:320px) and (max-width: 480px) {
 
     /* HEADER */
-    #header>nav {
-        display: none;
-    }
-
-    #header #menu-user {
-        display: none;
-    }
-
-    #header #menu-bars {
+    #btn-menu {
         display: block;
     }
 
+    #nav {
+        display: none;
+    }
+
+    #nav.active {
+        width: 90vw;
+        height: calc(90vh - 10px);
+        position: absolute;
+        left: 0px;
+        top: 70px;
+        padding: 10px 0px;
+        background-color: red;
+        display: block;
+        border-radius: 0 0 15px 15px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-top: none;
+        background: #000;
+    }
+
+    #menu {
+        flex-direction: column;
+    }
+
+    #menu a {
+        padding: 20px;
+    }
+    
     /* HOME */
     #home {
         flex-direction: column-reverse;

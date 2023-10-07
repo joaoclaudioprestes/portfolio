@@ -20,8 +20,8 @@
     <header id="header">
         <img src="img/logo.svg" alt="Logo" id="logo">
 
-        <nav>
-            <ul>
+        <nav id="nav" class="">
+            <ul id="menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Sobre mim</a></li>
                 <li><a href="#services">Projetos</a></li>
@@ -30,12 +30,11 @@
             </ul>
         </nav>
 
-        <button id="menu-bars"><i class="fa-solid fa-bars"></i></button>
-        <button id="menu-user"><i class="fa-solid fa-user"></i></button>
+        <button id="btn-menu"><i class="fa-solid fa-bars"></i></button>
     </header>
 
     <main id="main-container">
-        <div id="home">
+        <section id="home">
             <div class="home-left">
                 <div class="title-box">
                     <h1 class="title">Olá, eu sou</h1>
@@ -46,11 +45,11 @@
                 <div id="button-home">
                     <button class="button-github">
                         <i class="fa-brands fa-github"></i>
-                        <a href="#">GitHub</a>
+                        <a href="https://github.com/joaoclaudioprestes" target="_blank">GitHub</a>
                     </button>
                     <button class="button-linkedin">
                         <i class="fa-brands fa-linkedin"></i>
-                        <a href="#">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/" target="_blank">LinkedIn</a>
                     </button>
                 </div>
             </div>
@@ -58,9 +57,9 @@
             <div class="home-right">
                 <img src="img/home-img.svg" alt="">
             </div>
-        </div>
+        </section>
 
-        <div id="about">
+        <section id="about">
             <div class="about-left">
                 <img src="img/about-img.svg" alt="">
             </div>
@@ -85,9 +84,9 @@
                     <i class="fa-brands fa-linkedin"></i>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="projects">
+        <section id="projects">
             <div class="title-projects">
                 <h2 class="title">Projetos</h2>
                 <p class="sub">Conheça meus projetos...</p>
@@ -115,8 +114,9 @@
             <button class="button-preview">
                 <a href="">Veja mais</a>
             </button>
-        </div>
-        <div id="knowledge">
+        </section>
+
+        <section id="knowledge">
             <div class="knowledge-left">
                 <h2 class="title">Skills</h2>
                 <p class="sub">Saiba mais sobre meus conhecimentos...</p>
@@ -149,37 +149,37 @@
                     <i class="fa-brands fa-node-js"></i>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="contact">
+        <section id="contact">
             <div class="contact-container">
                 <div class="title-contact">
                     <h2 class="title">Contato</h2>
                     <p class="sub">Entre em contato comigo.</p>
                 </div>
                 <div class="info-contact">
-                    <div class="box-contact linkedin">
+                    <button class="box-contact linkedin">
                         <i class="fa-brands fa-linkedin"></i>
-                        <a href="#">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-claudio-prestes/" target="_blank">LinkedIn</a>
                         <span></span>
-                    </div>
+                    </button>
 
-                    <div class="box-contact whatsapp">
+                    <button class="box-contact whatsapp">
                         <i class="fa-brands fa-whatsapp"></i>
                         <a href="tel:15997838020">(15) 99783-8020</a>
                         <span></span>
-                    </div>
+                    </button>
 
-                    <div class="box-contact email">
+                    <button class="box-contact email">
                         <i class="fa-regular fa-envelope"></i>
                         <a href="mailto:joaoprestes17@outlook.com">
                             joaoprestes17@outlook.com
                         </a>
                         <span></span>
-                    </div>
+                    </button>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer id="footer">
