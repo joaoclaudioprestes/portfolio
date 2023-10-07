@@ -5,6 +5,14 @@
         display: none;
     }
 
+    #header #menu-user {
+        display: none;
+    }
+
+    #header #menu-bars {
+        display: block;
+    }
+
     /* HOME */
     #home {
         flex-direction: column-reverse;
@@ -40,10 +48,6 @@
 
     #about .about-left {
         justify-content: center;
-    }
-
-    #about .about-right {
-        text-align: justify;
     }
 
     #about img {
@@ -177,20 +181,6 @@
     }
 
     /* CONTACT */
-    .box-contact .fa-linkedin {
-        position: relative;
-        right: 190px;
-    }
-
-    .box-contact .fa-whatsapp {
-        position: relative;
-        right: 160px;
-    }
-
-    .box-contact .fa-envelope {
-        position: relative;
-        right: 120px;
-    }
 
     /* FOOTER */
     #footer {
