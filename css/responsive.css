@@ -1,0 +1,77 @@
+@media screen and (min-width:320px) and (max-width: 480px) {
+    /* HEADER */
+    #header {
+        #button-menu {
+            display: block;
+        }
+
+        .menu > ul {
+            flex-direction: column;
+            background: #111111;
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 70vw;
+            height: 100%;
+        }
+
+        .menu > ul > li {
+            padding: 20px;
+        }
+
+    }
+    /* HOME */
+    #home {
+        flex-direction: column;
+        height: 100vh;
+        padding: 50px 25px;
+    }
+
+    .home-left p {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    
+    .home-left h1 {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    /* ABOUT */
+    #about {
+        padding: 50px 25px;
+    }
+    .container-about {
+        flex-direction: column;
+        padding: 25px;
+        align-items: center;
+    }
+
+    .img-about {
+        max-width: 300px;
+    }
+
+    /* EXPERIENCE */
+    #experience {
+        padding: 50px 25px;
+    }
+
+    /* FOOTER */
+    #footer {
+        font-size: .5rem;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width:1279px) {
+
+  
+}
+
+@media screen and (min-width: 1280px) {
+    
+}
