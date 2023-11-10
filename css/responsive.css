@@ -1,26 +1,40 @@
 @media screen and (min-width:320px) and (max-width: 480px) {
     /* HEADER */
     #header {
-        #button-menu {
-            display: block;
-        }
+        justify-content: space-between;
+    }
 
-        .menu > ul {
-            flex-direction: column;
-            background: #111111;
-            position: absolute;
-            top: 80px;
-            right: 0;
-            width: 70vw;
-            height: 100%;
-        }
+    #button-menu {
+        display: block;
+    }
 
-        .menu > ul > li {
-            padding: 20px;
-        }
+    .menu {
+        display: none;
+    }
 
+    .menu.hide {
+        display: block;
+    }
+
+    .menu > ul {
+        flex-direction: column;
+        background: #111111;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 70vw;
+        height: 100%;
+    }
+
+    .menu > ul > li {
+        padding: 20px;
+    }
+
+    .logo {
+        max-width: 150px;
     }
     /* HOME */
+
     #home {
         flex-direction: column;
         height: 100vh;
@@ -51,9 +65,20 @@
         max-width: 300px;
     }
 
+    /* SKILLS */
+    #skills {
+        flex-direction: column;
+        padding: 25px;
+    }
+
     /* EXPERIENCE */
     #experience {
         padding: 50px 25px;
+    }
+
+    /* CONTACT */
+    #contact {
+        padding: 25px;
     }
 
     /* FOOTER */

@@ -30,10 +30,6 @@ body {
     display: none;
 }
 
-.menu.hide{
-    display: block;
-}
-
 .menu > ul {
     display: flex;
     flex-direction: row;
@@ -188,6 +184,7 @@ body {
     color: #9CA3AF;
     display: flex;
     gap: 10px;
+    cursor: pointer;
 }
 
 .icons-about i {
@@ -440,24 +437,42 @@ body {
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 50px 0px 0px 0px;
+    justify-content: space-between;
+    text-align: justify;    padding: 50px 0px 0px 0px;
     gap: 50px;
-    align-items: center;
+    align-items: start;
     padding: 50px;
 }
 
-#skills h2{
+.container-title {
+    width: 50%;
+    height: 100%;
+}
+
+.container-title h2 {
     font-size: 2rem;
     color: #fff;
+}
+
+.container-title p {
+    font-size: 1rem;
+    color: #9CA3AF;
+}
+
+.container-title .resume-skills {
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    color: #fff;
+    padding-top: 10px;
 }
 
 .container-slidein {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 50%;
     gap: 10px;
+    align-items: center;
     justify-content: center;
 }
 
